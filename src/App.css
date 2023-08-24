@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+.navbar{
+    padding: 15px;
+    background-color: rgb(255, 132, 39);
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    font-size: large;
+}
+.navbar h1{
+    margin: 5px;
+    font-family:'Times New Roman', Times, serif;
+}
+.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    list-style: none;
+    font-size: medium;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 4px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* Error page */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.error{
+    text-align: center;
+   margin-top: 40px;
+    color: grey;
+   }
+.error button{
+    margin: 10px;
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+    border:  1px solid rgb(255, 200, 0)  ;
+    background: white;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error a{
+    text-decoration: none;
+    font-weight: bold;
 }
