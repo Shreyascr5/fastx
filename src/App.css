@@ -85,6 +85,36 @@ body{
 
 }
 
+/* car container  */
+.car-header{
+    text-align: center;
+    padding: 10px;
+    font-size: 70px;;
+}
+.car-container{
+    margin: 30px;
+    padding: 20px;
+    background-color: #654F6F;
+    width: 310px;
+    border: 2px solid #041F1E;
+    border-radius: 7px;
+}
+.car-container button{
+    padding: 7px;
+    border-radius: 5px;
+    border:2px solid #1E2D2F ;
+}
+.car-container button:active{
+    border:2px solid #5A6A6B ;
+}
+
+.car-grid{
+    display: flex;
+    max-width: 1800px;
+    flex-wrap: wrap;
+}
+
+
 /* enquiry */
 .enquiry h1{
     align-items: center;
