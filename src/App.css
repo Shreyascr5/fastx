@@ -9,6 +9,12 @@ body{
     background-color: rgb(194, 239, 235);
 }
 
+.container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+
+}
 
 /* Navbar */
 .navbar{
@@ -22,6 +28,7 @@ body{
 .navbar h1{
     margin: 5px;
     font-family:'Times New Roman', Times, serif;
+    color: #F9ADA0;
 }
 .link{
     display: flex;
@@ -78,6 +85,38 @@ body{
 
 }
 
+/* enquiry */
+.enquiry h1{
+    align-items: center;
+    margin-left: 45px   ;
+}
+.form{
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 10px;
+}
+form input{
+    padding: 10px;
+    margin: 6px;
+}
+form textarea{
+    padding: 10px;
+    margin: 6px;
+    height: 80px;
+}
+form button{
+    margin-left: 55px;
+    padding: 15px;
+    border-radius: 3px;
+    border: none;
+    border:  1px solid rgb(69, 5, 12)  ;
+    background: white;
+}
+form button:hover{
+    background-color:#160C28;
+    color:#EFCB68;
+}
 
 /* Error page */
 

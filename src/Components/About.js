@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className="container">
+    // <div className="container">
     <div className='about'>
       <h1>About Us- FastX'</h1>
       <div className="about-container">
@@ -25,7 +25,7 @@ The <b>FastX'</b> Team</span></p>
 
       </div>
     </div>
-    </div>
+    // </div>
   )
 }
 

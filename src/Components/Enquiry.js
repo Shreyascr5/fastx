@@ -2,15 +2,19 @@ import React from "react";
 
 function Enquiry() {
   return (
-    <div className="form">
+    <div className="container">
+    <div className="enquiry">
     <h1>Queries</h1>
-      <form>
+      <form className="form">
         <input type="text" placeholder="Name" />
         <br />
         <input type="email" placeholder="Email" />
         <br />
-        <textarea  cols="30" rows="10" />
+        <textarea  placeholder="write to us" />
+        <br />
+        <button>Submit</button>
       </form>
+    </div>
     </div>
   );
 }
