@@ -92,9 +92,10 @@ body{
     font-size: 70px;;
 }
 .car-container{
+    color: #F2CEE6;
     margin: 30px;
     padding: 20px;
-    background-color: #654F6F;
+    background-color: #0D1B1E;
     width: 310px;
     border: 2px solid #041F1E;
     border-radius: 7px;
@@ -103,9 +104,14 @@ body{
     padding: 7px;
     border-radius: 5px;
     border:2px solid #1E2D2F ;
+    cursor: pointer;
 }
 .car-container button:active{
     border:2px solid #5A6A6B ;
+    cursor: wait;
+}
+.car-container p{
+    margin-top: 3px;
 }
 
 .car-grid{

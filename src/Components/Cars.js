@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import car from "../Images/paganihayura.webp";
+import React from 'react'
 import data from ".././Data.js";
 
 function Cars() {
