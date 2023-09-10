@@ -5,6 +5,7 @@ import Navbar from "./Components/Navbar";
 import About from "./Components/About";
 import Enquiry from "./Components/Enquiry";
 import Cars from "./Components/Cars";
+import CarDetail from "./Components/CarDetail"; 
 import Error from "./Components/Error";
 
 function App() {
@@ -14,10 +15,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />}></Route>
-          <Route path="/enquiry" element={<Enquiry />}></Route>
-          <Route path="/cars" element={<Cars />}></Route>
-          <Route path="*" element={<Error />}></Route>
+          <Route path="/about" element={<About />} />
+          <Route path="/enquiry" element={<Enquiry />} />
+          <Route path="/cars" element={<Cars />} />
+          <Route path="/car/:carId" element={<CarDetail />} /> 
+          <Route path="*" element={<Error />} />
         </Routes>
       </BrowserRouter>
     </div>
