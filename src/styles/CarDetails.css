@@ -1,0 +1,45 @@
+.car-detail-container {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between;
+    padding: 50px;
+    padding-top: 150px;
+  }
+  
+
+  .car-card {
+    flex: 1; 
+    max-width: 45%; 
+    
+  }
+  
+  .car-image {
+    border-radius: 1rem;
+    max-width: 80%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(232, 237, 239, 0.2); 
+  }
+  
+
+  .car-info {
+    flex: 1; 
+    max-width: 100%; 
+    margin-left: 1px !important;
+  }
+  
+  
+  .car-title {
+    font-size: 24px; 
+    margin-top: 0;
+    margin-bottom: 50px;
+  }
+  
+  .car-title:hover{
+    color: coral;
+  }
+
+  .car-description {
+    font-size: 16px; 
+    line-height: 1.5;
+  }
+  
