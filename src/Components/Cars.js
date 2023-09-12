@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import data from '../Data.js';
 
 function Cars() {
-<<<<<<< Updated upstream
+
   const cars = data.map((car) => (
     <div className='car-container' key={car.id}>
       <img src={car.img} alt="car" width={300} height={150} />
@@ -13,7 +13,9 @@ function Cars() {
       <Link to={`/car/${car.id}`}>
         <button>View more</button>
       </Link>
-=======
+      </div>
+  ))
+
   const showMore=(id)=>{
     const more=data.map((e)=>{
       const{id,title,img,info}=e;
@@ -35,9 +37,9 @@ function Cars() {
       <p>Model-2023</p>
       <br />
       <button onClick={(id)=>showMore(id)}>Details</button>
->>>>>>> Stashed changes
+
     </div>
-  ));
+    )})
 
   return (
     <>
