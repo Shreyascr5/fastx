@@ -46,6 +46,12 @@ body{
     margin: 4px;
     
 }
+/* Home */
+.home-grid{
+    display: flex;
+    max-width: 1800px;
+    flex-wrap: wrap;
+}
 
 /* About page */
 .about-container{
